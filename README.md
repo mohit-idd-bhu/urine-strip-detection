@@ -19,3 +19,14 @@ This module requires the following modules:
  ```npm install```
 - Install python modules
  ```pip install -r requirements.txt```
+
+## Working
+
+### Sample urine strip
+![Iamge](uploads/image.jpg)
+
+### Interface
+![interface](uploads/interface.jpg)
+
+### Results
+![Results](uploads/results.jpg)
