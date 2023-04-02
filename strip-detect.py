@@ -26,10 +26,7 @@ def generate_colors(roi):
         y2=y1+50
     return obj
 
-
-if __name__ == "__main__":
-    roi=generate_roi()
-    data=generate_colors(roi)
-    json_data = json.dumps(data)
-    print(json_data)
-    
+roi=generate_roi()
+data=generate_colors(roi)
+json_data = json.dumps(data)
+print(json_data)

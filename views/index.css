@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.form-section{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    margin-top: 10rem;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.form-button{
+    background-color: #4CAF50; /* Green */
+    border: #4CAF50 1px solid;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form-button:hover {
+    background-color: white; /* Green */
+    border: #4CAF50 1px solid;
+    color: black;
+    transition: 0.4s;
+    cursor: pointer;
+}
